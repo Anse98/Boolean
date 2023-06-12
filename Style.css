@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#container{
+    width: 1400px;
+    background-color: rgba(0, 0, 0, 0.5);;
+    height: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width:250px ;
+    margin-top:120px;
+}
+
+header h1{
+    color: rgb(95, 255, 47);
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+nav{
+    background-color: rgb(95, 255, 47);
+    width: 70%;
+    margin: auto;
+    padding:1%;
+    text-align: center;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+input:hover{
+    cursor:pointer;
+}
+
+main{
+    width:70%;
+    margin: auto;
+    color: whitesmoke;
+}
+
+main div{
+    margin-bottom: 15px;
+}
+
+main h1{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 27px;
+}
+
+main p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+main #mezzocarico{
+    width:360px;
+    background: rgb(252, 172, 23);
+    border:solid 15px rgb(252, 172, 23) ;
+    border-radius:5px;
+}
+
+main #carico{
+    width:600px;
+    background: rgb(5, 168, 5);
+    border:solid 15px rgb(5, 168, 5) ;
+    border-radius:5px;
+}
+
+main #scarico{
+    width:160px;
+    background: red;
+    border:solid 15px red ;
+    border-radius:5px;
+}
